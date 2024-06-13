@@ -1,0 +1,29 @@
+﻿<Window x:Class="Cripto1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cripto1"
+        mc:Ignorable="d"
+        Title="cryptography-script-loader" Height="470" Width="805" Background="#FFA08D9A">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="21*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="buttonEncrypt" Content="encrypt" HorizontalAlignment="Left" Margin="46,335,0,0" VerticalAlignment="Top" Height="30" Width="131" Click="buttonEncrypt_Click" Grid.ColumnSpan="2"/>
+        <Button Name="buttonDecrypt" Content="decrypt" HorizontalAlignment="Left" Margin="232,335,0,0" VerticalAlignment="Top" Height="30" Width="131" Click="buttonDecrypt_Click" Grid.Column="1"/>
+        <Button Name="buttonChooseKey" Content="chooseKey" HorizontalAlignment="Left" Margin="46,255,0,0" VerticalAlignment="Top" Height="36" Width="134" Click="buttonChooseKey_Click" Grid.ColumnSpan="2"/>
+        <Button Name="buttonChooseTargetDirectory" Content="chooseTargetDirectory" HorizontalAlignment="Left" Margin="460,63,0,0" VerticalAlignment="Top" Height="36" Width="186" Click="buttonChooseTargetDirectory_Click" Grid.Column="1"/>
+        <Button Name="buttonCreateKey" Content="createKey" HorizontalAlignment="Left" Margin="46,196,0,0" VerticalAlignment="Top" Height="35" Width="134" Click="buttonCreateKey_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="buttonQuit" Content="quit" HorizontalAlignment="Left" Margin="525,331,0,0" VerticalAlignment="Top" Height="30" Width="112" Click="buttonQuit_Click" Grid.Column="1"/>
+        <Button x:Name="buttonChooseDll" Content="chooseDll" HorizontalAlignment="Left" Margin="46,64,0,0" VerticalAlignment="Top" Height="35" Width="134" Click="buttonChooseDll_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="buttonChooseScriptPath" Content="chooseScriptPath" HorizontalAlignment="Left" Margin="46,123,0,0" VerticalAlignment="Top" Height="35" Width="134" Click="buttonChooseScriptPath_Click" Grid.ColumnSpan="2"/>
+        <TextBlock Name="textBlockDllPath" HorizontalAlignment="Left" Margin="143,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="35" Width="251" Background="White" Grid.Column="1"/>
+        <TextBlock Name="textBlockScriptPath" HorizontalAlignment="Left" Margin="143,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="35" Width="251" Background="White" Grid.Column="1"/>
+        <TextBlock Name="textBlockKeyPath" HorizontalAlignment="Left" Margin="143,255,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="36" Width="251" Background="White" Grid.Column="1"/>
+        <ListBox Name="xlsListing" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="457,122,46,192" Grid.Column="1"/>
+        <Label Content="github.com/J-Pedro-Nogueira/cryptography-script-loader" HorizontalAlignment="Left" Height="28" Margin="46,408,0,0" VerticalAlignment="Top" Width="509" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
