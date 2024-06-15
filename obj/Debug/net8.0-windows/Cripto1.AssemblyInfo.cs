@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cripto1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8ea01b64f99ce6eaf5064b954fb57fcf6fde691")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2e546d3b689909679bc0fab339e0b6f33005962")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cripto1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cripto1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
