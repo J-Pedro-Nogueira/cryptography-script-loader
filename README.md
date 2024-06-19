@@ -12,4 +12,4 @@ Load modular cryptographic functions from a simple GUI.
 # Usage
 TODO
 
-<img src="img\cap1.png" width="600px">
+<img src="img\screencap.png" width="600px">
