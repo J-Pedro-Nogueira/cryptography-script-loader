@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Pedro\\Documents\\GitHub\\cryptography-script-loader\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1297201-60DE-4405-B3B8-1D23A299A309}|Cripto1.csproj|c:\\users\\pedro\\documents\\github\\cryptography-script-loader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1297201-60DE-4405-B3B8-1D23A299A309}|Cripto1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1297201-60DE-4405-B3B8-1D23A299A309}|Cripto1.csproj|c:\\users\\pedro\\documents\\github\\cryptography-script-loader\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1297201-60DE-4405-B3B8-1D23A299A309}|Cripto1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1297201-60DE-4405-B3B8-1D23A299A309}|Cripto1.csproj|c:\\users\\pedro\\documents\\github\\cryptography-script-loader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1297201-60DE-4405-B3B8-1D23A299A309}|Cripto1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1297201-60DE-4405-B3B8-1D23A299A309}|Cripto1.csproj|c:\\users\\pedro\\documents\\github\\cryptography-script-loader\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Pedro\\Documents\\GitHub\\cryptography-script-loader\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -39,13 +39,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Pedro\\Documents\\GitHub\\cryptography-script-loader\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Pedro\\Documents\\GitHub\\cryptography-script-loader\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAALsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T19:53:47.632Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "ToolTip": "C:\\Users\\Pedro\\Documents\\GitHub\\cryptography-script-loader\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-13T22:48:49.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T22:48:49.028Z"
             }
           ]
         }
